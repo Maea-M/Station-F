@@ -4,41 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     
     <title>Copy Cat Station F </title>
 </head>
 <body>
     <!--Header Start-->
-    <header>
-        <img src="assets/logo.png" alt="logo Station F">
+    <header class="header">
+        <img class="logo" src="assets/logo.png" alt="logo Station F">
 
         <nav>
-            <ul>
-                <li><a href="#">Start-Up</a></li>
-                <li><a href="#">Programmes Start-Up</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Logement</a></li>
-                <li><a href="#">Evènements</a></li>
-                <li><a href="#">Newsroom</a></li>
+            <ul class="list-links">
+                <li class="nav-link"><a href="#">Start-Up</a></li>
+                <li class="nav-link"><a href="#">Programmes Start-Up</a></li>
+                <li class="nav-link"><a href="#">Services</a></li>
+                <li class="nav-link"><a href="#">Logement</a></li>
+                <li class="nav-link"><a href="#">Evènements</a></li>
+                <li class="nav-link"><a href="#">Newsroom</a></li>
+                <!--Menu déroulant : sélectionner la langue-->
+                <li>Fr</li>
+                <li>En</li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 15l-4.243-4.243 1.415-1.414L12 12.172l2.828-2.829 1.415 1.414z"/></svg>
+                <!--Lien pour postuler-->
+                <li class="nav-link button"><a href="#">Postuler</a></li>
             </ul>
         </nav>
-        
-        <!--Menu déroulant : sélectionner la langue-->
-        <ul>
-            <li>Fr</li>
-            <li>En</li>
-        </ul>
-        
-        <button>Postuler</button>
     </header>
     <!--Header End-->
 
     <!--Main Start-->
     <main>
-        <h1>Plus grand campus de start-up du monde à Paris</h1>
-        <p>Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 30 programmes d'accompagnement et de nombreux services au coeur de Paris.</p>
+        <!--First section of cover-->
+        <section class="cover">
+            <div>
+                <h1>Plus grand campus de start-up du monde à Paris</h1>
+                <p>Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 30 programmes d'accompagnement et de nombreux services au coeur de Paris.</p>
+                <a href="#">
+                    <img src="assets/arrow-drop-down-line.svg" alt="Flèche vers le bas">
+                </a>
+            </div>
+            
+            <img class="image-office" src="assets/home.jpg" alt="Locaux Station F">
+            
+        </section>
+    
     
     </main>
     <!--Main End-->

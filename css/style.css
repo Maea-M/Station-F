@@ -1,0 +1,52 @@
+body {
+    background-color: aquamarine;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-links {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 125px;
+    height: 15px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+
+nav a {
+    color: black;
+}
+
+.button {
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.nav-link:nth-child(6){
+    border-right: solid 2px lightgrey;
+    padding-right: 10px;
+}
+
+.button a {
+    color: aliceblue;
+}
+
+/* --- COVER ---*/
+.cover {
+    display: flex;
+}
+
+.image-office {
+    width:55%;
+    flex-shrink: 0;
+}
